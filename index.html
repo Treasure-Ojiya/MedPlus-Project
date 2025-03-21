@@ -32,105 +32,123 @@
     </style>
   </head>
   <body>
-    <div class="border-bottom">
-      <div class="px-4">
-        <div
-          class="row align-items-center justify-content-center py-3 text-center text-md-start"
-        >
-          <div class="col-12 col-md-6 mb-2 mb-md-0">
-            <a href="#" class="me-3 text-dark text-decoration-none top-nav"
-              >About</a
+    <header id="header">
+      <div class="container">
+        <div class="border-bottom">
+          <div class="px-4">
+            <div
+              class="row align-items-center justify-content-center py-3 text-center text-md-start"
             >
-            <a href="#" class="me-3 text-dark text-decoration-none top-nav"
-              >Doctor</a
-            >
-            <a href="#" class="me-3 text-dark text-decoration-none top-nav"
-              >Contact</a
-            >
-            <a href="#" class="text-dark text-decoration-none top-nav">FAQ</a>
-          </div>
+              <div class="col-12 col-md-6 mb-2 mb-md-0">
+                <a href="#" class="me-3 text-dark text-decoration-none top-nav"
+                  >About</a
+                >
+                <a href="#" class="me-3 text-dark text-decoration-none top-nav"
+                  >Doctor</a
+                >
+                <a href="#" class="me-3 text-dark text-decoration-none top-nav"
+                  >Contact</a
+                >
+                <a href="#" class="text-dark text-decoration-none top-nav"
+                  >FAQ</a
+                >
+              </div>
 
-          <div class="col-12 col-md-5 text-center text-md-end">
-            <span class="me-3">
-              <i class="bi bi-telephone-fill text-primary me-1 top-nav"></i>
-              +880 1234 56789
-            </span>
+              <div class="col-12 col-md-5 text-center text-md-end">
+                <span class="me-3">
+                  <i class="bi bi-telephone-fill text-primary me-1 top-nav"></i>
+                  +880 1234 56789
+                </span>
+                <a
+                  href="#"
+                  class="fs-6 text-decoration-none text-dark hover-text-primary top-nav"
+                >
+                  <i class="bi bi-envelope-fill text-primary me-1 top-nav"></i>
+                  email@domain.com
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <nav class="navbar navbar-expand-lg px-5 py-2 my-2">
+          <div class="container-xl">
             <a
-              href="#"
-              class="fs-6 text-decoration-none text-dark hover-text-primary top-nav"
+              href="#home"
+              class="display-1 fs-2 fw-bolder navbar-brand text-dark text-decoration-none top-nav"
             >
-              <i class="bi bi-envelope-fill text-primary me-1 top-nav"></i>
-              email@domain.com
+              Medi<span class="text-primary">plus</span>
             </a>
-          </div>
-        </div>
-      </div>
-    </div>
 
-    <nav class="navbar navbar-expand-lg px-5 py-2 my-2">
-      <div class="container-xl">
-        <a
-          href="#home"
-          class="display-1 fs-2 fw-bolder navbar-brand text-dark text-decoration-none top-nav"
-        >
-          Medi<span class="text-primary">plus</span>
-        </a>
-
-        <button
-          class="navbar-toggler text-end"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#main-nav"
-          aria-controls="main-nav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div
-          class="collapse navbar-collapse justify-content-center align-items-center text-center"
-          id="main-nav"
-        >
-          <ul class="navbar-nav d-flex align-items-center">
-            <li class="nav-item">
-              <a href="#" class="me-3 fw-medium nav-link text-dark active"
-                >Home</a
-              >
-            </li>
-            <li class="nav-item">
-              <a href="#" class="me-3 fw-medium nav-link text-dark">Doctor</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="me-3 fw-medium nav-link text-dark">Services</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="me-3 fw-medium nav-link text-dark">Pages</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="me-3 fw-medium nav-link text-dark">Blogs</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="me-3 fw-medium nav-link text-dark"
-                >Contact Us</a
-              >
-            </li>
-          </ul>
-
-          <!-- Book Appointment button only visible in the collapsed menu on small screens -->
-          <div class="d-lg-none mt-3">
-            <button class="btn btn-primary py-2 px-3 w-100">
-              Book Appointment
+            <button
+              class="navbar-toggler text-end"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#main-nav"
+              aria-controls="main-nav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
             </button>
-          </div>
-        </div>
 
-        <!-- Book Appointment button visible only on large screens -->
-        <div class="d-none d-lg-block">
-          <button class="btn btn-primary py-2 px-3">Book Appointment</button>
-        </div>
+            <div
+              class="collapse navbar-collapse justify-content-center align-items-center text-center"
+              id="main-nav"
+            >
+              <ul class="navbar-nav d-flex align-items-center">
+                <li class="nav-item">
+                  <a href="#" class="me-3 fw-medium nav-link text-dark active"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="me-3 fw-medium nav-link text-dark"
+                    >Doctor</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="me-3 fw-medium nav-link text-dark"
+                    >Services</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="me-3 fw-medium nav-link text-dark"
+                    >Pages</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="me-3 fw-medium nav-link text-dark"
+                    >Blogs</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="me-3 fw-medium nav-link text-dark"
+                    >Contact Us</a
+                  >
+                </li>
+              </ul>
+
+              <!-- Book Appointment button only visible in the collapsed menu on small screens -->
+              <div class="d-lg-none mt-3">
+                <button class="btn btn-primary py-2 px-3 w-100">
+                  Book Appointment
+                </button>
+              </div>
+            </div>
+
+            <!-- Book Appointment button visible only on large screens -->
+            <div class="d-none d-lg-block">
+              <button class="btn btn-primary py-2 px-3">
+                Book Appointment
+              </button>
+            </div>
+          </div>
+        </nav>
       </div>
-    </nav>
+    </header>
 
     <!-- <section id="hero-carousel">
       <div id="carouselSlider" class="carousel carousel-dark slide">
